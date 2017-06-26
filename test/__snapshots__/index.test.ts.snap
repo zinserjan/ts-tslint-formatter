@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stylish formatter error-1 1`] = `
+Object {
+  "file": "./test/fixture/error-1/src/entry.ts",
+  "message": "  [2m2:19[22m  [31merror[39m  ' should be \\"  [2mquotemark[22m
+",
+}
+`;
+
+exports[`stylish formatter error-2 1`] = `
+Object {
+  "file": "./test/fixture/error-2/src/entry.ts",
+  "message": "  [2m1:19[22m  [31merror[39m  ' should be \\"  [2mquotemark[22m
+  [2m2:19[22m  [31merror[39m  ' should be \\"  [2mquotemark[22m
+",
+}
+`;
+
+exports[`stylish formatter warning-1 1`] = `
+Object {
+  "file": "./test/fixture/warning-1/src/entry.ts",
+  "message": "  [2m2:19[22m  [33mwarning[39m  ' should be \\"  [2mquotemark[22m
+",
+}
+`;
+
+exports[`stylish formatter warning-2 1`] = `
+Object {
+  "file": "./test/fixture/warning-2/src/entry.ts",
+  "message": "  [2m1:19[22m  [33mwarning[39m  ' should be \\"  [2mquotemark[22m
+  [2m2:19[22m  [33mwarning[39m  ' should be \\"  [2mquotemark[22m
+",
+}
+`;

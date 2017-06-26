@@ -1,0 +1,6 @@
+{
+    "rules": {
+        "quotemark": [true, "double", "jsx-double"]
+    },
+    "defaultSeverity": "warning"
+}
