@@ -4,7 +4,7 @@ import { getTsConfigs, getRuleFailures } from "./util/testHelper";
 import format from "../src/index";
 const chalk = require("chalk");
 
-const formatters = ["stylish", "xxx"];
+const formatters = ["stylish"];
 const tsconfigs = getTsConfigs();
 
 formatters.forEach(formatter => {
