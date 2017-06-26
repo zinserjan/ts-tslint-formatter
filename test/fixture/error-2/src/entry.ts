@@ -1,2 +1,4 @@
-const x: string = "test";
-const y: string = "test";
+// prettier-ignore
+const x: string = 'test';
+// prettier-ignore
+const y: string = 'test';
